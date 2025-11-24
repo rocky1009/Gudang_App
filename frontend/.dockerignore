@@ -1,0 +1,53 @@
+# Build outputs
+build/
+.dart_tool/
+
+# Android
+android/.gradle
+android/gradle
+android/build
+android/.idea
+android/local.properties
+*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.generated/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Git
+.git/
+.gitignore
+
+# Testing
+test/
+coverage/
+
+# Documentation
+*.md
+!README.md
+
+# Misc
+.DS_Store
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
